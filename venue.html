@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Welcome to VRSI 2018</title>
+	<!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.transitions.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+     <link href="css1/bootstrap1.min.css" rel="stylesheet">
+  <link href="css1/animate1.min.css" rel="stylesheet"> 
+  <link href="css1/font-awesome1.min.css" rel="stylesheet">
+  <link href="css1/lightbox1.css" rel="stylesheet">
+  <link href="css1/main.css" rel="stylesheet">
+  <link id="css-preset" href="css1/presets/preset1.css" rel="stylesheet">
+  <link href="css1/responsive1.css" rel="stylesheet">
+  
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="ddaccordion.js">
+
+/***********************************************
+* Accordion Content script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+* Please keep this notice intact
+***********************************************/
+
+</script>
+
+
+<script type="text/javascript">
+
+
+ddaccordion.init({ //top level headers initialization
+	headerclass: "expandable", //Shared CSS class name of headers group that are expandable
+	contentclass: "categoryitems", //Shared CSS class name of contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [0], //index of content(s) open by default [index1, index2, etc]. [] denotes no content
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: true, //persist state of opened contents within browser session?
+	toggleclass: ["", "openheader"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["prefix", "", ""], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(headers, expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+
+ddaccordion.init({ //2nd level headers initialization
+	headerclass: "subexpandable", //Shared CSS class name of sub headers group that are expandable
+	contentclass: "subcategoryitems", //Shared CSS class name of sub contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click" or "mouseover
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [], //index of content(s) open by default [index1, index2, etc]. [] denotes no content
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: true, //persist state of opened contents within browser session?
+	toggleclass: ["opensubheader", "closedsubheader"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["none", "", ""], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(headers, expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+
+
+</script>
+  
+</head><!--/head-->
+
+<body id="home" class="homepage">
+
+    <header id="header">
+        <nav id="main-menu" class="navbar navbar-default navbar-fixed-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                </div>
+				
+                <div class="collapse navbar-collapse navbar-right">
+                   <ul class="nav navbar-nav">
+                        <li class="scroll"><a href="index.html">Home</a></li>
+                        <li class="scroll active"><a href="venue.html">Venue</a></li>
+                        <li class="scroll"><a href="committee.html">Committee</a></li>
+                        <li class="scroll"><a href="registration.html">Registration</a></li>
+                        <li class="scroll"><a href="speakers.html">Speakers</a></li>
+                        <li class="scroll"><a href="http://vrsi.in/abstract-submission-guidelines/" target="_blank">Abstract</a></li>
+                        <li class="scroll"><a href="programme.html">Programme</a></li>
+                        <li class="dropdown"><a href="#">Exhibition</a>
+                        <ul class="dropdown-content">
+                          	<li><a href="pdf/Trade Form Conference.pdf" target="_blank"><strong>Trade Form - Conference</strong></a></li>
+                            <li><a href="pdf/Trade Form RISHI.pdf" target="_blank"><strong>Trade Form - RISHI</strong></a></li>
+                          	<li><a href="pdf/Trade Brochure.pdf" target="_blank"><strong>Trade Brochure</strong></a></li>
+                            <li><a href="pdf/Exhibition Layout.pdf" target="_blank"><strong>Exhibiton Layout</strong></a></li>
+                            
+					      </ul>
+                        </li>
+              <li class="scroll"><a href="accommodation.html">Accommodation</a></li>
+               <li class="dropdown"><a href="#">Travellers</a>
+              <ul class="dropdown-content">
+                          	<li><a href="places to visit.html"><strong>Places to Visit in Jaipur</strong></a></li>
+                          	<li><a href="pdf/Shopping Places in Jaipur.pdf" target="_blank"><strong>Shopping in Jaipur</strong></a></li>
+                            <li><a href="places-to-visit-near-jaipur.html"><strong>Places to Visit Near Jaipur</strong></a></li>
+                             <li><a href="pre-and-post-conference-tour.html"><strong>Pre and Post Conference Tours </strong></a></li>
+                             <li><a href="visa.html"><strong>Visa</strong></a></li>
+						   </ul>
+              </li>
+                        <li class="scroll"><a href="contact.html">Contact</a></li>                       
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+        
+        <!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+    
+    </header><!--/header-->
+ 
+ <section id="main-slider">
+       
+       <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+		<li><img src="data1/images/8.jpg" alt="1" title="1" id="wows1_0"/></li>
+		<li><img src="data1/images/9.jpg" alt="2" title="2" id="wows1_1"/></li>
+		<li><img src="data1/images/10.jpg" alt="3" title="3" id="wows1_2"/></li>
+		<li><img src="data1/images/11.jpg" alt="bootstrap carousel" title="4" id="wows1_3"/></li>
+		<li><img src="data1/images/12.jpg" alt="5" title="5" id="wows1_4"/></li>
+       
+	</ul></div>
+<div class="ws_script" style="position:absolute;left:-99%"> </div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine1/wowslider.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+          
+</section><!--/#main-slider-->
+ 
+    
+<section id="cta" class="wow fadeIn">
+        <div class="container">
+            <div class="row">
+                
+                    <h2>Venue</h2>
+              <p>
+              <table width="100%" cellpadding="0" cellspacing="0">
+           <thead>
+               <tr>
+                 <th height="43" bgcolor="#3d81c2"><div align="left" class="style4"><span style="color:#FFF; font-size:16px">Jaipur Marriott Hotel</span><br>
+<span style=" color:#FFF">Ashram Marg, Near Jawahar Circle, Jaipur, Rajasthan 302015</span></div></th>
+             </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td align="center" valign="top" data-label="Consultant"><div align="left">
+                 
+<span style="text-align:justify">Experience a winning combination of traditional luxury and modern convenience at the Jaipur Marriott Hotel. Entrenched in the cultural legacy of India's Pink City, Hotel Marriott welcomes guests with refined elegance, contemporary amenities, and a prime location near Jaipur International Airport. 371 rooms and suites are designed with your comfort in mind and feature luxury bedding, marble bathrooms, high-speed Internet access and advantage of our 31,000 square feet of indoor and outdoor venue space. Additional amenities throughout the hotel include a full-service spa, a fitness center, and an outdoor pool - as well as a kids' splash pool. Enjoy all-day dining at our award-winning Okra, Indian cuisine at Saffron, or tasty baked goods at Jaipur Baking Company. Its unparalleled Jaipur location makes it easy for you to enjoy area attractions, including the famous City Palace. Your India getaway awaits here at the Jaipur Marriott Hotel. </span>
+
+</div>
+                </td>
+               </tr>
+             </tbody>
+           </table>
+                    </p>
+                   
+            </div>
+        </div>
+    </section><!--/#cta-->
+    
+
+    <!--Featutre here-->
+    
+    <section id="cta2">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms"><span style="color:#FF0">Marriott Hotel</span></h2>
+                <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms"><strong>Ashram Marg, Near Jawahar Circle, Jaipur, Rajasthan 302015</strong></p>
+                <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms"><a class="btn btn-primary btn-lg" href="venue.html">Read More</a><br>
+</p>
+               
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="services" >
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Downloads</h2>
+            </div>
+
+            <div class="row">
+                <div class="features">
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-file-pdf-o"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Registration Form</h4>
+                                 <p><a href="pdf/Registration Form.pdf" target="_blank">Click Here</a></p>
+                            </div>
+                        </div>
+                        
+                    </div><!--/.col-md-4-->
+                    
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-file-pdf-o"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Conference Brochure</h4>
+                                <p><a href="pdf/Final Brochure.pdf" target="_blank">Click Here</a></p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-file-pdf-o"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Scientific Programme</h4>
+                               <p><a href="programme.html">Click Here</a></p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                </div>
+            </div><!--/.row--> 
+            
+              
+      </div><!--/.container-->
+    </section><!--/#services-->
+    
+  
+<p>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7119.87032860279!2d75.79279117614269!3d26.842014410301434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5e591a66633%3A0xef403de8e5c9ad89!2sJaipur+Marriott+Hotel!5e0!3m2!1sen!2sin!4v1512646829121" width="100%" height="270" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>
+
+
+    <section id="work-process">
+        <div class="container">
+          <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Conference Secretariat</h2>
+                <p class="text-center wow fadeInDown" align="left"><span style="font-size:17px"><strong>
+ Dr. Raj Kumar Sharma<br>
+Organizing Secretary
+                </strong><br> 
+                <br>
+               RGS Eye Centre & Retina Foundation<br>
+               N-86, Adinath Nagar, JLN Marg, 
+Opp. World Trade Park<br>
+
+<strong>Email:</strong>  <span class="nn"><a href="/cdn-cgi/l/email-protection#4e3c253d262f3c232f3c2b3a27202f0e372f262121602d2123"><span class="__cf_email__" data-cfemail="95e7fee6fdf4e7f8f4e7f0e1fcfbf4d5ecf4fdfafabbf6faf8">[email&#160;protected]</span></a>, <a href="/cdn-cgi/l/email-protection#126460617b2022232a78737b62676052757f737b7e3c717d7f"><span class="__cf_email__" data-cfemail="265054554f1416171e4c474f56535466414b474f4a0845494b">[email&#160;protected]</span></a></span><br>
+<strong>Phone:</strong> +91 9982358226, 9829054748</span></p>
+
+<br>
+
+
+<p class="text-center wow fadeInDown">
+
+
+ <h2 class="section-title text-center wow fadeInDown">Professional Conference Organizer</h2>
+<p class="text-center wow fadeInDown" align="left"><img src="images/alp_logo.png" width="237" height="30"></p>
+<p class="text-center wow fadeInDown" align="left">SUMMIT - Alpcord Network<br>
+</p>
+
+</p>
+            </div>      
+        </div>
+    </section><!--/#work-process-->
+    
+    
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2018 <a href="#" title="">VRSI</a>
+                </div>
+                <div class="col-sm-6">
+                 <ul class="social-icons">
+                       <li>Powered by <a href="#">Alpcord Network</a></li>
+                    </ul> 
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/mousescroll.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
